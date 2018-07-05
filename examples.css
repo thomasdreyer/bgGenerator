@@ -1,0 +1,27 @@
+
+/*
+Background Generator Examples
+*/
+
+/* Example 1 */
+body{
+    /*.......*/
+
+    background: linear-gradient(to right, green , blue);
+
+    /*.......*/
+}
+
+
+/* Example 2 */
+.mydiv{
+    /*.......*/
+
+    background: linear-gradient(to right, green , blue);
+
+    /*.......*/
+}
+
+
+
+

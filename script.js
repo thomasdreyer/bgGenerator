@@ -1,1 +1,88 @@
-Ym9keSxodG1sewogICAgd2lkdGg6MTAwJTsKICAgIGhlaWdodDoxMDAlOwp9CgoKYm9keSB7CiAgICBkaXNwbGF5OmZsZXg7CiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjsKICAgCWZvbnQ6ICdSYWxld2F5Jywgc2Fucy1zZXJpZjsKICAgIGNvbG9yOiByZ2JhKDAsMCwwLC41KTsKICAgIHRleHQtYWxpZ246IGNlbnRlcjsKICAgIGxldHRlci1zcGFjaW5nOiAuNWVtOwogICAgdG9wOiAxNSU7CgliYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQodG8gcmlnaHQsIGdyZWVuICwgYmx1ZSk7IC8qIFN0YW5kYXJkIHN5bnRheCAqLwp9CgoKLmNvbnRhaW5lcnsKZGlzcGxheTpmbGV4OwpqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjsKZmxleC1kaXJlY3Rpb246IGNvbHVtbjsKd2lkdGg6NTAlOwp9CgoKaDEgewogICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7CiAgICBmb250OiA2MDAgMy41ZW0gJ1JhbGV3YXknLCBzYW5zLXNlcmlmOwogICAgY29sb3I6IHJnYmEoMCwwLDAsLjUpOwogICAgdGV4dC1hbGlnbjogY2VudGVyOwogICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTsKICAgIGxldHRlci1zcGFjaW5nOiAuNWVtOwogICAgd2lkdGg6IDEwMCU7Cn0KCmgyewpiYWNrZ3JvdW5kLWNvbG9yOiBibGFjazsKY29sb3I6d2hpdGU7CmZvbnQtZmFtaWx5OnNhbnMtc2VyaWY7CgoKfQoKaDMgewoJZm9udDogOTAwIDFlbSBtb25vc3BhY2U7CiAgICBjb2xvcjogd2hpdGU7CiAgICB3aWR0aDoxMDB2aDsKICAgIHBhZGRpbmctdG9wOiAydmg7CiAgICBwYWRkaW5nLWJvdHRvbTogMnZoOwogICAgdGV4dC1hbGlnbjogY2VudGVyOwogICAgdGV4dC10cmFuc2Zvcm06IG5vbmU7CiAgICBsZXR0ZXItc3BhY2luZzogMC4wMWVtOwpiYWNrZ3JvdW5kLWNvbG9yOmJsYWNrOwp9CgojcmFuZG9tLWJ0bnsKd2lkdGg6MTAwcHg7CnBhZGRpbmc6NXB4OwpiYWNrZ3JvdW5kLWNvbG9yOiBwZXJ1Owpib3JkZXI6MXB4IHNvbGlkIHBlcnU7Cgp9CgouY29sb3IxewoKYmFja2dyb3VuZC1jb2xvcjp0cmFuc3BhcmVudDsKYm9yZGVyOjFweCBzb2xpZCB0cmFuc3BhcmVudDsKbWFyZ2luOjVweDsKfQoKLmNvbG9yMnsKCiAgICBiYWNrZ3JvdW5kLWNvbG9yOnRyYW5zcGFyZW50OwogICAgYm9yZGVyOjFweCBzb2xpZCB0cmFuc3BhcmVudDsKICAgIG1hcmdpbjo1cHg7CiAgICB9CgogICAgcHtiYWNrZ3JvdW5kLWNvbG9yOiBibGFjazsKICAgIGNvbG9yOndoaXRlOwpmb250LWZhbWlseTogc2Fucy1zZXJpZjsKcGFkZGluZzoxMHB4O30KCgouY29sb3IxOmhvdmVyewpmbGV4LWdyb3c6IDE1cHg7Cgp9
+body,html{
+    width:100%;
+    height:100%;
+}
+
+
+body {
+    display:flex;
+    justify-content: center;
+   	font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, green , blue); /* Standard syntax */
+}
+
+
+.container{
+display:flex;
+justify-content: center;
+flex-direction: column;
+width:50%;
+}
+
+
+h1 {
+    background-color: white;
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h2{
+background-color: black;
+color:white;
+font-family:sans-serif;
+
+
+}
+
+h3 {
+	font: 900 1em monospace;
+    color: white;
+    width:100vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+background-color:black;
+}
+
+#random-btn{
+width:100px;
+padding:5px;
+background-color: peru;
+border:1px solid peru;
+
+}
+
+.color1{
+
+background-color:transparent;
+border:1px solid transparent;
+margin:5px;
+}
+
+.color2{
+
+    background-color:transparent;
+    border:1px solid transparent;
+    margin:5px;
+    }
+
+    p{background-color: black;
+    color:white;
+font-family: sans-serif;
+padding:10px;}
+
+
+.color1:hover{
+flex-grow: 15px;
+
+}
